@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-heading: "Outfit", system-ui, sans-serif;
+
+  --color-ink: #0f2a1a;
+  --color-navy-950: #14532d;
+  --color-navy-900: #166534;
+  --color-navy-800: #15803d;
+  --color-navy-700: #16a34a;
+  --color-navy-600: #22c55e;
+  --color-ember-500: #16a34a;
+  --color-ember-400: #4ade80;
+  --color-ember-600: #15803d;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background: #ffffff;
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+}
+
+::selection {
+  background: var(--color-ember-500);
+  color: white;
+}
+
+.bg-grid {
+  background-image:
+    linear-gradient(rgba(255,255,255,0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.08) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.bg-grid-light {
+  background-image:
+    linear-gradient(rgba(21,128,61,0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(21,128,61,0.06) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+@keyframes flow {
+  0% { background-position: 0 0; }
+  100% { background-position: 200px 0; }
+}
