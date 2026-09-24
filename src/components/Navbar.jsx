@@ -38,7 +38,7 @@ export default function Navbar() {
             </span>
             <span className="leading-tight text-left">
               <span className="block font-heading font-bold text-lg tracking-tight text-navy-950">
-                NAVYA FUELS
+                NAYA FUELS
               </span>
               <span className="block text-[11px] font-semibold tracking-[0.25em] text-ember-600">
                 LLP

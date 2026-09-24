@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { Mail, Phone, MapPin, Send } from "lucide-react";
+import { Phone, MapPin, Send } from "lucide-react";
+import { company } from "../data/content";
 
 export default function Contact() {
   const [sent, setSent] = useState(false);
@@ -30,7 +31,9 @@ export default function Contact() {
                 </span>
                 <div>
                   <p className="text-sm font-bold text-navy-950">Address</p>
-                  <p className="text-sm text-slate-500 mt-0.5">Add your company address here</p>
+                  <p className="text-sm text-slate-600 mt-0.5 leading-relaxed">
+                    {company.address}
+                  </p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -39,16 +42,12 @@ export default function Contact() {
                 </span>
                 <div>
                   <p className="text-sm font-bold text-navy-950">Phone</p>
-                  <p className="text-sm text-slate-500 mt-0.5">Add your contact number here</p>
-                </div>
-              </div>
-              <div className="flex items-start gap-4">
-                <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-navy-950 shrink-0">
-                  <Mail className="h-5 w-5 text-ember-400" strokeWidth={1.8} />
-                </span>
-                <div>
-                  <p className="text-sm font-bold text-navy-950">Email</p>
-                  <p className="text-sm text-slate-500 mt-0.5">Add your company email here</p>
+                  <a
+                    href={`tel:${company.phone.replace(/[^0-9+]/g, "")}`}
+                    className="text-sm text-slate-600 mt-0.5 hover:text-ember-600 transition-colors font-medium block"
+                  >
+                    {company.phone}
+                  </a>
                 </div>
               </div>
             </div>

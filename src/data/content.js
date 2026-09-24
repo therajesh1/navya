@@ -1,14 +1,13 @@
 export const company = {
-  name: "Navya Fuels LLP",
+  name: "Naya Fuels LLP",
   founded: 2026,
   tagline: "Manufacturer & Supplier of Premium Pyrolysis Oil",
   about:
-    "Established in the year 2026, Navya Fuels LLP is among the leading and trustworthy organizations of this domain, engaged in Manufacturing & Supplying a wide range of products. Our offered assortment of products comprises Black Pyrolysis Oil, Industrial Pyrolysis Oil and High Grade Pyrolysis Oil. Offered products are manufactured from supreme grade basic material by using modern tools and technology. All these products are made as per industry-approved parameters under the supervision of our skilled and experienced workforce. Our offered products are highly demanded across the market for their optimum quality.",
+    "Established in the year 2026, Naya Fuels LLP is among the leading and trustworthy organizations of this domain, engaged in Manufacturing & Supplying a wide range of products. Our offered assortment of products comprises Black Pyrolysis Oil, Industrial Pyrolysis Oil and High Grade Pyrolysis Oil. Offered products are manufactured from supreme grade basic material by using modern tools and technology. All these products are made as per industry-approved parameters under the supervision of our skilled and experienced workforce. Our offered products are highly demanded across the market for their optimum quality.",
   mentorNote:
     "Our organization is growing at a fast rate because of the valuable assistance of our mentor, Mr. Jeet Satra. His management skills, ability to handle crucial situations and regular motivation have enabled us to achieve such a remarkable peak of success in the market.",
-  phone: "+91 98765 43210",
-  email: "info@navyafuels.com",
-  address: "Navya Fuels LLP, Industrial Estate, Gujarat, India",
+  phone: "+91 98206 28555",
+  address: "Delite Palace, C/3, Mahatma Gandhi Rd, Anjaria Wadi, Rajawadi Colony, Ghatkopar West, Mumbai, Maharashtra 400077",
 };
 
 export const products = [
@@ -140,4 +139,5 @@ export const team = [
   { name: "Jeet Satra", role: "Mentor" },
   { name: "Sunny Shah" },
   { name: "Richard Chettiar" },
+  { name: "Gavin Chettiar" },
 ];

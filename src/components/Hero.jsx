@@ -23,7 +23,7 @@ export default function Hero() {
           </h1>
 
           <p className="mt-6 text-lg leading-relaxed text-slate-600 max-w-2xl">
-            Navya Fuels LLP is a trustworthy manufacturer and supplier of Black Pyrolysis Oil, Industrial
+            Naya Fuels LLP is a trustworthy manufacturer and supplier of Black Pyrolysis Oil, Industrial
             Pyrolysis Oil and High Grade Pyrolysis Oil &mdash; engineered from supreme grade material with modern
             tools, technology, and a skilled, experienced workforce.
           </p>

@@ -15,7 +15,7 @@ export default function Footer() {
                 <Leaf className="h-4.5 w-4.5 text-white" strokeWidth={2.4} />
               </span>
               <span className="font-heading font-bold text-white tracking-tight">
-                NAVYA FUELS <span className="text-ember-400">LLP</span>
+                NAYA FUELS <span className="text-ember-400">LLP</span>
               </span>
             </Link>
             <p className="mt-5 text-sm leading-relaxed text-slate-400 max-w-sm">
@@ -61,7 +61,7 @@ export default function Footer() {
 
         <div className="mt-14 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-slate-500">
-            &copy; {year} Navya Fuels LLP. All rights reserved.
+            &copy; {year} Naya Fuels LLP. All rights reserved.
           </p>
           <p className="text-xs text-slate-500">Established 2026 &middot; Manufacturer &amp; Supplier</p>
         </div>

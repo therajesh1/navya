@@ -23,14 +23,14 @@ export default function Team() {
         <div className="max-w-2xl mx-auto text-center">
           <p className="text-xs font-bold tracking-[0.2em] text-ember-600">OUR TEAM</p>
           <h2 className="mt-3 font-heading text-3xl sm:text-4xl font-bold tracking-tight text-navy-950">
-            The People Behind Navya Fuels
+            The People Behind Naya Fuels
           </h2>
           <p className="mt-4 text-base leading-relaxed text-slate-600">
             A dedicated team committed to quality, integrity and the continued growth of our organization.
           </p>
         </div>
 
-        <div className="mt-14 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="mt-14 grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
           {team.map((member, i) => (
             <div
               key={member.name}
